@@ -78,16 +78,16 @@ python pipeline.py
 
 ## Features
 
-| Feature | Status | Description |
-|---------|--------|-------------|
-| PDF Parsing | ✅ | Text + images + tables from PDFs |
-| Image OCR | ✅ | pytesseract + Claude vision |
-| Web Scraping | ✅ | HTML → clean text |
-| Semantic Chunking | ✅ | Sliding window with overlap |
-| Dense Retrieval | ✅ | FAISS vector search |
-| BM25 Retrieval | ✅ | Keyword-based sparse retrieval |
-| Hybrid Fusion | ✅ | Reciprocal Rank Fusion (RRF) |
-| Reranking | ✅ | Cross-encoder reranking pass |
-| Query Rewriting | ✅ | HyDE + multi-query expansion |
-| Agentic Retrieval | ✅ | LLM-driven tool-use loop |
-| Evaluation | ✅ | Faithfulness + relevance + recall |
+| Feature          | Description |
+|------------------|-------------|
+| PDF Parsing      | Text + images + tables from PDFs |
+| Image OCR        | pytesseract + Claude vision |
+| Web Scraping     | HTML → clean text |
+| Semantic Chunking| Sliding window with overlap |
+| Dense Retrieval  | FAISS vector search |
+| BM25 Retrieval   | Keyword-based sparse retrieval |
+| Hybrid Fusion    | Reciprocal Rank Fusion (RRF) |
+| Reranking        | Cross-encoder reranking pass |
+| Query Rewriting  | HyDE + multi-query expansion |
+| Agentic Retrieval| LLM-driven tool-use loop |
+| Evaluation       | Faithfulness + relevance + recall |
