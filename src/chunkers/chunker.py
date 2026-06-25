@@ -1,9 +1,3 @@
-"""
-src/chunkers/chunker.py — Split raw parsed content into retrieval-ready chunks.
-
-Strategy: Sliding window over sentences, respecting token limits.
-Each chunk gets a unique ID + full metadata lineage.
-"""
 from __future__ import annotations
 import hashlib
 import re

@@ -1,11 +1,3 @@
-"""
-src/parsers/image_parser.py — Parse images via OCR + Claude vision.
-
-Strategy:
-  1. Try pytesseract OCR for text-heavy images (charts, screenshots, scans)
-  2. If OCR text is sparse, describe via Claude vision (multimodal)
-  3. Return structured ParsedChunk
-"""
 from __future__ import annotations
 import base64
 import logging

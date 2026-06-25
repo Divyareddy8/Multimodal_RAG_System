@@ -1,15 +1,3 @@
-"""
-src/embeddings/embedder.py — Embedding model abstraction.
-
-Backends:
-  - "local"  : Simple TF-IDF-based embeddings (no GPU needed, always works)
-  - "claude" : Use Claude API's text (via a simple hash-based fallback)
-  - "sentence_transformers": sentence-transformers (if installed)
-
-The LocalEmbedder uses a lightweight approach: TF-IDF vectors projected to
-a fixed dimension via random projection — good enough for demos, replace with
-sentence-transformers or OpenAI for production.
-"""
 from __future__ import annotations
 import hashlib
 import logging

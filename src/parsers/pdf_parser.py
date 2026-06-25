@@ -1,12 +1,3 @@
-"""
-src/parsers/pdf_parser.py — Parse PDFs into structured documents.
-
-Extracts:
-  - Text (with page numbers)
-  - Tables (as markdown)
-  - Images (as base64 for vision LLM)
-  - Metadata (title, author, page count)
-"""
 from __future__ import annotations
 import io
 import base64
