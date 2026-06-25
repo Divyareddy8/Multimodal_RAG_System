@@ -1,0 +1,25 @@
+# Core
+anthropic>=0.25.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+numpy>=1.24.0
+tqdm>=4.65.0
+rich>=13.0.0
+
+# Document Parsing
+pymupdf>=1.23.0          # PDF parsing (fitz)
+pillow>=10.0.0           # Image processing
+pytesseract>=0.3.10      # OCR for images
+requests>=2.31.0         # Web scraping
+beautifulsoup4>=4.12.0   # HTML parsing
+
+# Embeddings & Vector DB
+faiss-cpu>=1.7.4         # Vector similarity search
+tiktoken>=0.5.0          # Token counting
+
+# Retrieval
+rank-bm25>=0.2.2         # BM25 sparse retrieval
+
+# Optional (better embeddings - requires more space)
+# sentence-transformers>=2.2.0
+# torch>=2.0.0
